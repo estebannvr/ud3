@@ -1,0 +1,7 @@
+function saludar(){
+	alert("!Hola¡");
+	emoji();
+}
+
+function despedirse(){
+	alert("a");	

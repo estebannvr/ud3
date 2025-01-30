@@ -1,18 +1,6 @@
-var nombre;
-var edad;
+let a;
+let b;
 
-function pedirDatos(){
-	nombre = prompt("¿Como te llamas?"); 	
-	pedirDatos1();
+function calcular(){
+	a = prompt("");
 }	
-
-function pedirDatos1(){
-	edad = prompt("¿Cuantos años tienes?"); 	
-	pedirDatos2();
-}	
-
-function pedirDatos2(){
-	alert("Hola" + nombre + ",veo que tienes"+ edad +"años."); 
-}
-
-

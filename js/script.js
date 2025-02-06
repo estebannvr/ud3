@@ -1,17 +1,7 @@
-let a;
-let b;
-
-function calcular(){
-	a = parseInt(prompt("Introduce el primer numero:"));
-	calcular1();
-}	
-
-function calcular1(){
-	b = parseInt(prompt("Introduce el segundo numero:"));
-	calcular2();
-}	
-
-function calcular2(){
-	alert("El primer numero es: " + a + "\n El segundo número es: " + b +"\n La suma es: " + (a+b) + "\n La resta es: " + (a-b) + "\n El producto es: " + (a*b) + "\n La division es: " + (a/b) + "\n El resto es: " + (a%b));
-	
+function mostrarMensaje(){
+	let num1;
+	let num2;
+	num1 = document.getElementById("num1").value;
+	num2 = document.getElementById("num2").value;
+	document.getElementById("mensaje").innerHTML = "El primer número es:" + num1 + "<br>El segundo numero es: " + num2 + "<br>La suma es: " + (num1+num2) + "<br> La resta es: "  + (num1-num2) + "<br> El producto es: " + (num1*num2) + "<br> La division es : " + (num1/num2) + "<br>El resto es: " + (num1%num2) 
 }

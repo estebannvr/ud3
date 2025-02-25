@@ -1,0 +1,7 @@
+function Factorial(){
+	let num;
+	let resultado;
+	let iteracion;
+	
+	num = parseInt(document.getElementById("num").value);
+}	 
